@@ -21,7 +21,7 @@ contract Asset is ERC721URIStorage, Ownable {
        return newItemId;
    }
 
-    // The address of the LandNTFContract must be approved before execute this function
+    // The address of the LandNTFContract must be approved before execute this function (sale of land and assets as a package)
     // TODO: send ether to asset owner
    function sellAsset(address to, uint256 tokenID) public payable {
        require(msg.value >= assetPriceAmount, "Not enough funds to buy asset");
