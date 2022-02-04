@@ -9,6 +9,7 @@ Then sell and purchase such NFT, both individually and as a whole package to a t
 
 ## Next steps
 
+- [ ] Finish implementing erc-1155 (wip)
 - [ ] Proxy pattern implementation
 
 ## Documentation
